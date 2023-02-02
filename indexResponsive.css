@@ -1,0 +1,118 @@
+@media (max-width: 376px ) {
+
+    h1{
+        font-size: 21px;       
+        left: 175px;
+        top: -370px;
+        text-shadow: 2px 2px #fff;
+        color: rgb(164, 54, 255);
+    }
+
+    .carta {
+        position: relative;
+        top: -150px;
+        left: -160px;
+        max-width: 350px;
+        height: 380px;
+    }
+
+    .carta-trasera>.titulo {
+        font-size: 18px;
+    }
+
+    .carta-trasera p{
+        padding: 5px;
+    }
+
+    .aptitudes-conocimientos{
+        text-align: center;
+        position: relative;
+        top: -150px;
+    }  
+
+    .tecno img{
+        width: 90px;
+        gap: 50px;
+        margin: 0px 10px;
+    }
+
+    .cont-proyectos {
+        margin-bottom: 0;
+    }
+
+    .mis-proyectos{
+        text-align: center;
+        position: relative;
+        top: -150px;
+    }
+
+    .mis-proyectos h2{
+        text-shadow: 2px 2px rgb(2, 0, 0);
+    }
+    
+    
+}
+
+@media (min-width: 720px) and (max-width: 767px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        max-width: 100vw;
+    }
+      
+    h1{
+        font-size: 44px;
+        right: -40px;
+        top: -370px;
+        text-shadow: 2px 2px #fff;
+    }
+
+    .carta{
+        position: relative;
+        left: -330px;
+        top: -80px;
+    }
+
+    .aptitudes-conocimientos{
+        position: relative;
+        top: -100px;
+
+    }
+
+    .mis-proyectos{
+        position: relative;
+        top: -100px;
+        
+    }
+
+    .invitacion{
+        width: 90%;
+    }
+
+    .footer{
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1279px){
+    h1{
+        font-size: 45px;        
+    }
+
+    .carta {
+        position: relative;
+        left: -260px;       
+    }
+
+    .invitacion{
+        width: 90%;
+    }
+
+    .tecno img{        
+        margin: 0px 15px;       
+    }
+}
+
